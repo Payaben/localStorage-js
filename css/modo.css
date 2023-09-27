@@ -1,0 +1,129 @@
+/* Archivo css/modo.css */
+
+/* Estilos para el botón que cambia el modo */
+.toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+  background-color: #121212 !important; /* Cambia el color de fondo del body */
+}
+
+.dark-mode .toggle {
+  background-color: #6a6a6a; /* Cambia el color de fondo del botón */
+}
+
+.dark-mode .toggle::before {
+  transform: translateX(30px); /* Mueve el círculo del botón a la derecha */
+}
+
+.dark-mode .text-white {
+  color: #f0f0f0 !important; /* Cambia el color del texto blanco */
+}
+
+.dark-mode .bg-light {
+  background-color: #242424 !important; /* Cambia el color de fondo de los elementos con clase bg-light */
+}
+
+.dark-mode .table-dark {
+  background-color: #363636 !important; /* Cambia el color de fondo de la tabla */
+}
+
+.dark-mode .nav-links {
+    color:#f0f0f0 !important; /* Cambia el color de los enlaces del menú */
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ef0808 !important;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s;
+    transition: border 0.3s;
+    transition: box-shadow 0.5s;
+}
+.dark-mode .nav-links:hover{
+    background-color: #fa0707 !important;
+    color:#f0f0f0 !important;
+    border: 2px solid #fa0707 !important;
+    box-shadow: 10px 10px 10px rgba(145, 65, 65, 0.5);
+}
+
+.dark-mode .form-label, .dark-mode .form-control {
+    color: #fa0707 !important; /* Cambia el color del texto a blanco */
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #242424a7 !important;
+}
+
+.dark-mode .form-control {
+  color: #f0f0f0 !important; /* Cambia el color del texto a blanco */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dark-mode .table {
+    background-color: #242424 !important; /* Cambia el color de fondo de la tabla */
+    color: #f0f0f0 !important; /* Cambia el color del texto de la tabla */
+}
+
+.dark-mode .table-darks tr th {
+    background-color: #363636 !important; /* Cambia el color de fondo del encabezado de la tabla */
+    color: #ef0808 !important; /* Cambia el color del texto del encabezado de la tabla */
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.dark-mode .table .tbody tr td {
+  background-color: #2a2a2a !important; /* Cambia el color de fondo del cuerpo de la tabla */
+  color: #f0f0f0 !important; /* Cambia el color del texto del cuerpo de la tabla */
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #ef0808 !important; /* Cambia el color de fondo del botón */
+  border-color: #ef0808 !important; /* Cambia el color del borde del botón */
+  font-weight: bold;
+  font-size: 20px;
+  color: #fbfbfb !important; /* Cambia el color del texto del botón */
+  transition: background-color 0.5s;
+  transition: border-color 0.5s;
+  transition: color 0.5s;
+  border-radius: 25px;
+  border-radius: 30px;
+
+}
+.btn-primary:hover{
+  background-color: #fa0707 !important;
+  border-color: #fa0707 !important;
+  color: white !important;
+  border-radius: 25px;
+}
+
+
+.dark-mode .container-fluid {
+    background-color: #121212 !important; /* Cambia el color de fondo del contenedor */
+    color: #f0f0f0 !important; /* Cambia el color del texto del contenedor */
+}
