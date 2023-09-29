@@ -14,9 +14,9 @@ Finalmente si acciona clic, sobre el botón Borrar usuarios, notará que se borr
 <p>
 Querido profesor Ángel Daniel Fuentes,
 
-Quiero expresar mi más sincero agradecimiento por su paciencia y dedicación en la docencia. Su gran vocación y pasión por enseñar se reflejan en la forma en que transmite exitosamente sus conocimientos a sus alumnos. Gracias a usted, he aprendido mucho y me siento inspirado/a a seguir creciendo académicamente.
+Quiero expresar mi más sincero agradecimiento por su paciencia y dedicación en la docencia. Su gran vocación y pasión por enseñar se reflejan en la forma en que transmite exitosamente sus conocimientos a sus alumnos. Gracias a usted, he aprendido mucho y me siento inspirado a seguir creciendo académicamente.
 
-Valoraré siempre el tiempo y esfuerzo que ha invertido en mi educación. Su compromiso con sus alumnos es admirable y me siento afortunado/a de haber tenido la oportunidad de ser parte de su clase. Gracias por ser un modelo a seguir y por motivarme a alcanzar mis metas.
+Valoraré siempre el tiempo y esfuerzo que ha invertido en mi educación. Su compromiso con sus alumnos es admirable y me siento afortunado de haber tenido la oportunidad de ser parte de su clase. Gracias por ser un modelo a seguir y por motivarme a alcanzar mis metas.
 
 Con gratitud,
 Pablo Benjamin Guillen
